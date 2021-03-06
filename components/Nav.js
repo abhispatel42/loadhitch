@@ -14,7 +14,7 @@ const Nav = () => {
                 <div className={navStyles.color}>
                     <div className="navbar-nav ms-md-15 ms-3 ">
                         <a className="nav-link" href="/dashboard">Dashboard</a>
-                        <a className="nav-link" href="#">Profile</a>
+                        <a className="nav-link" href="/profile">Profile</a>
                         <a className="nav-link" href="#">Quotes</a>
                         <a className="nav-link" href="#">Trip Admin</a>
                         <a className="nav-link" href="#">Folder</a>
