@@ -5,7 +5,6 @@ const dashboard = () => ({
     render() {
         return (
             <div>
-                <ProfileNav />
             </div>
         )
     }
