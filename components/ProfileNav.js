@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.css'
 import navStyles from '../styles/Nav.module.css'
 
 const Nav = () => {
