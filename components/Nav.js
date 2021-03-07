@@ -51,13 +51,13 @@ const Nav = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className={'nav-item', navStyles.color}>
-                            <a className="nav-link" aria-current="page" href="#">Dashboard</a>
+                            <a className="nav-link" aria-current="page" href="/dashboard">Dashboard</a>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Profile</a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="#">Company Profile</a></li>
+                                <li><a className="dropdown-item" href="/profile">Company Profile</a></li>
                                 <li><a className="dropdown-item" href="#">Load Profile</a></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><a className="dropdown-item" href="#">Insurance Information</a></li>
